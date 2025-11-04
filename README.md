@@ -2,7 +2,7 @@
 ## Team Name/Number: Beta3
 ## Team Members
 - [William Alexander] - [GitHub Username]
-- [William Lim] - [GitHub Username]
+- [William Lim] - [donghun1004]
 - [Mark Robinson] - [GitHub Username]
 - [Rylan Larson] - [krxnky]
 ## Project Description
