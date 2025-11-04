@@ -4,7 +4,7 @@
 - [William Alexander] - [GitHub Username]
 - [William Lim] - [GitHub Username]
 - [Mark Robinson] - [GitHub Username]
-- [Rylan Larson] - [GitHub Username]
+- [Rylan Larson] - [krxnky]
 ## Project Description
 Brief description of the Connect platform and what this project
 implements. (Refer to BMC document)
