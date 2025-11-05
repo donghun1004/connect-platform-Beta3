@@ -1,7 +1,7 @@
 # Connect Platform - Project 2
 ## Team Name/Number: Beta3
 ## Team Members
-- [William Alexander] - [GitHub Username]
+- [William Alexander] - [wale963]
 - [William Lim] - [donghun1004]
 - [Mark Robinson] - [GitHub Username]
 - [Rylan Larson] - [krxnky]
@@ -10,15 +10,16 @@ Brief description of the Connect platform and what this project
 implements. (Refer to BMC document)
 ## Pages Implemented
 1. Landing Page (home.html)
-2. Student Dashboard (student-dashboard.html)
-3. Company Dashboard (company-dashboard.html)
-4. Project Listings (projects.html)
+2. Search page (search.html)
+3. login page (login.html)
+4. Profile page (profile.html)
+5. Project page (projects.html)
 ## Technologies Used
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
 - Git & GitHub
 - GitHub Pages
-- 
+  
 ## Individual Contributions Sample
 ### [William Alexander]
 - 
