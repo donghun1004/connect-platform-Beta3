@@ -3,7 +3,7 @@
 ## Team Members
 - [William Alexander] - [wale963]
 - [William Lim] - [donghun1004]
-- [Mark Robinson] - [GitHub Username]
+- [Mark Robinson] - [mack216]
 - [Rylan Larson] - [krxnky]
 ## Project Description
 Brief description of the Connect platform and what this project
