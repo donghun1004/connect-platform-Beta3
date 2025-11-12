@@ -92,7 +92,6 @@ button.btn-large {
   border-radius: 20px;
 }
 
-/* Hero Section */
 .hero {
   display: flex;
   flex-direction: row;
@@ -205,7 +204,6 @@ button.btn-large {
   border-color: #cc0000;
 }
 
-/* Project Types Section */
 .project-types {
   padding: 60px;
   max-width: 1400px;
@@ -242,12 +240,6 @@ button.btn-large {
   cursor: pointer;
 }
 
-.project-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-4px);
-  border-color: #cc0000;
-}
-
 .project-icon {
   width: 60px;
   height: 60px;
@@ -266,7 +258,6 @@ button.btn-large {
   color: #000;
 }
 
-/* Footer Section */
 .footer {
   background-color: #1a1a1a;
   color: #fff;
@@ -336,17 +327,746 @@ button.btn-large {
   text-decoration: none;
 }
 
-.social-icon:hover {
-  background-color: #cc0000;
-  transform: translateY(-2px);
-}
-
 .social-icon svg {
   width: 20px;
   height: 20px;
 }
 
-/* Responsive Footer */
+.dashboard-header {
+  padding: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.dashboard-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-picture-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #cc0000 0%, #990000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(204, 0, 0, 0.2);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.welcome-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.welcome-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin: 0;
+}
+
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.stat-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: rgba(204, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cc0000;
+  flex-shrink: 0;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-value {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.stat-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin: 0;
+}
+
+.dashboard-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 60px 60px 60px;
+  display: flex;
+  gap: 32px;
+}
+
+.dashboard-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* Active Projects Section */
+.active-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.active-project-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.company-name {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.progress-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+}
+
+.progress-percentage {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #cc0000;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #cc0000 0%, #ff3333 100%);
+  border-radius: 8px;
+  transition: width 0.3s ease;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.deadline svg {
+  color: #cc0000;
+}
+
+.available-opportunities {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.opportunities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.opportunity-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.opportunity-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  flex-shrink: 0;
+}
+
+.opportunity-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.opportunity-description {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 12px;
+  background: #f5f5f5;
+  color: #666;
+  border-radius: 6px;
+}
+
+.opportunity-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.duration {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.profile-sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.profile-summary-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: 80px;
+}
+
+.sidebar-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.profile-major {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-badge {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 14px;
+  background: rgba(204, 0, 0, 0.1);
+  color: #cc0000;
+  border-radius: 8px;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.portfolio-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.portfolio-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.btn-full-width {
+  width: 100%;
+  display: flex;
+}
+
+.btn-accept {
+  background-color: #00a86b;
+  color: #fff;
+}
+
+.btn-reject {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.post-project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-form-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  border-color: #cc0000;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+}
+
+.form-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.posted-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.posted-project-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.posted-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.posted-date {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.status-badge {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.status-active {
+  background: rgba(0, 168, 107, 0.1);
+  color: #00a86b;
+}
+
+.status-closed {
+  background: rgba(153, 153, 153, 0.1);
+  color: #999;
+}
+
+.posted-project-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.info-item svg {
+  color: #cc0000;
+}
+
+.recent-applications {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.applications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.application-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.application-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.applicant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.applicant-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.application-project {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.application-date {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #999;
+  white-space: nowrap;
+}
+
+.application-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .profile-sidebar {
+    width: 100%;
+  }
+
+  .profile-summary-card {
+    position: static;
+  }
+
+  .opportunities-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header {
+    padding: 40px 20px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .welcome-title {
+    font-size: 28px;
+  }
+
+  .quick-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-container {
+    padding: 0 20px 40px 20px;
+  }
+
+  .opportunities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-footer {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .project-footer button {
+    width: 100%;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .checkbox-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .application-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .application-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-buttons {
+    width: 100%;
+  }
+
+  .action-buttons button {
+    flex: 1;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
