@@ -19,7 +19,6 @@ implements. (Refer to BMC document)
 - CSS3 (Flexbox, Grid, Media Queries)
 - Git & GitHub
 - GitHub Pages
-- JavaScipt
   
 ## Individual Contributions Sample
 ### [William Alexander]
