@@ -70,7 +70,8 @@
         const LogInForm=document.getElementById('LogIn');
         const signUpForm=document.getElementById('signup');
         const recoverpassword=document.getElementById('recover')
-
+        const submitSignInButton = document.getElementById('submitSignIn');
+          
         signUpButton.addEventListener('click',function(){
         LogInForm.style.display="none";
         signUpForm.style.display="block";
@@ -79,6 +80,10 @@
         LogInForm.style.display="block";
         signUpForm.style.display="none";
         })
+        submitSignInButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = "student-dashboard.html";
+        });
         window.onload = function() {
         if (window.location.hash === '#signup') {
             LogInForm.style.display = "none";
@@ -91,3 +96,4 @@
 
 
 </html>
+
