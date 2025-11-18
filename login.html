@@ -31,7 +31,7 @@
             <input type="password" id="rPassword"  placeholder="Password" required>
             <label for="rPassword">Password</label>
         </div>
-       <button class="btn" id="submitSignUp" >Sign Up</button>
+       <button class="btn" id="submitSignUp">Sign Up</button>
       </form>
       <div class="links">
         <p>Already Have Account ?</p>
@@ -71,7 +71,9 @@
         const signUpForm=document.getElementById('signup');
         const recoverpassword=document.getElementById('recover')
         const submitSignInButton = document.getElementById('submitSignIn');
-          
+        const submitSignUpButton = document.getElementById('submitSignUp');
+
+
         signUpButton.addEventListener('click',function(){
         LogInForm.style.display="none";
         signUpForm.style.display="block";
@@ -81,8 +83,13 @@
         signUpForm.style.display="none";
         })
         submitSignInButton.addEventListener('click', function(event) {
-        event.preventDefault();
-        window.location.href = "student-dashboard.html";
+          event.preventDefault();
+          window.location.href = "student-dashboard.html";
+        });
+        submitSignUpButton.addEventListener('click', function(event) {
+          event.preventDefault();
+          alert("Account create successfully")
+          window.location.href = "login.html";
         });
         window.onload = function() {
         if (window.location.hash === '#signup') {
@@ -91,9 +98,5 @@
         }
     };
       </script>
-</body>
+ </body>
 </html>
-
-
-</html>
-
