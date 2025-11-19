@@ -23,10 +23,15 @@ Our TalentForge connecting Texas Tech students with short, meaningful industry p
   
 ## Individual Contributions Sample
 ### [William Alexander]
-- 
+- Creates Company profile page html section (company-dashboard.html)
+- Search page html section (project-listing.html)
 ### [William Lim]
-- 
+- Create login page (login.html), Change Password (updatepassword.html), css
+- Search page html section (project-listing.html)
 ### [Mark Robinson]
--
+- Creates Student profile page html section(student-dashboard.html)
+- Search page html section (project-listing.html)
 ### [Rylan Larson]
-- 
+- Create Nav bar
+- Create landing page html section (home.html), css
+- Search page html section (project-listing.html)
