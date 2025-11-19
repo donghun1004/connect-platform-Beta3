@@ -6,14 +6,15 @@
 - [Mark Robinson] - [mack216]
 - [Rylan Larson] - [krxnky]
 ## Project Description
-Brief description of the Connect platform and what this project
-implements. (Refer to BMC document)
+Our TalentForge connecting Texas Tech students with short, meaningful industry projects that help them build real experience and helping local businesses get reliable technical support without the hassle.
 ## Pages Implemented
 1. Landing Page (home.html)
-2. Search page (search.html)
-3. login page (login.html)
-4. Profile page (profile.html)
-5. Project page (projects.html)
+2. login page (login.html)
+3. Company profile page (company-dashboard.html)
+4. Search page (project-listings.html)
+5. Student profile page (student-dashboard.html)
+6. Change Password (updatepassword.html)
+
 ## Technologies Used
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
@@ -24,7 +25,7 @@ implements. (Refer to BMC document)
 ### [William Alexander]
 - 
 ### [William Lim]
--
+- 
 ### [Mark Robinson]
 -
 ### [Rylan Larson]
